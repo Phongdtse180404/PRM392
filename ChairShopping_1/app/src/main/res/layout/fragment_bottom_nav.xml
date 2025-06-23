@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_nav_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:name="com.yourpackage.BottomNavFragment"
+    android:background="@color/white"
+    android:layout_margin="16dp"
+    android:elevation="8dp"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:text="CHAIRIE"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/menu_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_menu"
+        android:background="@drawable/circle_selector"
+        android:padding="6dp"
+        android:clickable="true"
+        android:focusable="true" />
+</RelativeLayout>
+

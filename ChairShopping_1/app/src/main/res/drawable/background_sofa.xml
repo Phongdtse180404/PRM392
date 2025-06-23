@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background image -->
+    <item>
+        <bitmap
+            android:src="@drawable/sofa_background"
+            android:gravity="center"
+            android:alpha="0.15" />
+    </item>
+
+    <!-- Overlay color để tạo hiệu ứng mờ -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/background_overlay" />
+        </shape>
+    </item>
+</layer-list>
